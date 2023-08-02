@@ -1,0 +1,125 @@
+@font-face {
+    font-family: text-font;
+    src: url(fonts/MonumentExtended-Ultrabold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #bfa5ab;
+    display: flex;
+}
+
+.part1{
+    height: 100%;
+    width: 18%;
+    /* background-color: aqua; */
+}
+
+.part2{
+    height: 100%;
+    width: 74%;
+    /* background-color: rgb(164, 70, 33); */
+    background-image: url(https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.491);
+}
+
+.part3{
+    height: 100%;
+    width: 9%;
+    /* background-color: rgb(255, 0, 208); */
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(0,-50%);
+}
+
+.text h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #fff;
+    font-family: text-font;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    line-height: 85px;
+}
+
+.img{
+    height: 450px;
+    width: 300px;
+    position: absolute;
+    /* background-color: aqua; */
+    background-image: url(https://images.unsplash.com/photo-1540174401473-df5f1c06c716?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    top: 60%;
+    right: 5%;
+    transform: translate(0,-50%);
+}
+
+.overlay1{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.446);
+}
+
+.vertical-text{
+    position: absolute;
+    /* background-color: aqua; */
+    text-transform: uppercase;
+    font-family: text-font;
+    font-size: 20px;
+    color: transparent;
+    letter-spacing: 30px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    top: 50%;
+    right: -23%;
+    transform: rotate(90deg);
+}
+
+.nav-bar{
+    /* background-color: aqua; */
+    width: 242px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+    /* background-color: aqua; */
+    left: 5%;
+    top: 10%;
+}
+
+.nav-bar img{
+    height: 25px;
+}
+
+.nav-bar p{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 8px;
+}
+
